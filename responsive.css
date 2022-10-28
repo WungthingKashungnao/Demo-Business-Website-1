@@ -1,0 +1,111 @@
+@media only screen and (max-width:760px){
+    /* header section start */
+    #header{
+        background-image: none;
+    }
+    .container{
+        margin: 0 50px;
+    }
+    .brand-name{
+        font-family: 'Allura',sans-serif;
+        font-size: 3em;
+        text-decoration: none;
+        margin-top: 27px;
+        display: inline-block;
+        color: #f67c92;
+    }
+    .header-text{
+        margin-top: 100px;
+    }
+    .header-text h1{
+        font-size: 25px;
+    }
+
+    .common-btn{
+        padding: 10px 16px;
+    }
+    /* header section end */
+    /* menubtn start */
+    #menuBtn{
+        width: 50px;
+        position: fixed;
+        right: 20px;
+        top: 35px;
+        z-index: 2;
+        cursor: pointer;
+    }
+    /* menubtn end */
+    /* social media icons start*/
+    .social-icons img{
+        width: 14px;
+        margin: 15px auto;
+    }
+    /* social media icons end */
+    /* about section start */
+    .about-col-left, .about-col-right{
+        flex-basis: 100%;
+    }
+    .about-text{
+        margin: 50px 50px 0;
+        display: inline-block;
+    }
+    .about-text h2{
+        font-size: 18px;
+    }
+    /* about section end */
+    /* feature section start */
+    .feature-col{
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+    /* feature section end */
+
+    /* courses section start */
+    .courses-left-col{
+        flex-basis: 100%;
+    }
+    .courses-right-col{
+        flex-basis: 100%;
+        margin-top: 70px;
+    }
+    /* courses section end */
+    /* contact section start */
+    .contact-col-left, .contact-col-right{
+        flex-basis: 100%;
+    }
+    .contact-col-right img{
+        margin-top: 50px;
+    }
+    /* contact section end */
+
+    /* footer section start*/
+    .brand-name-footer{
+        font-size: 2em;
+    }
+    .footer-left-col, .footer-right-col{
+        flex-basis: 100%;
+    }
+    .link-title{
+        flex-basis: 50%;
+        margin-bottom: 30px;
+    }
+    /* footer section end */
+}
+@media only screen and (max-width:280px){
+    #menuBtn{
+        width: 40px;
+        position: fixed;
+        right: 20px;
+        top: 35px;
+        z-index: 2;
+        cursor: pointer;
+    }
+    .brand-name{
+        font-family: 'Allura',sans-serif;
+        font-size: 2.5em;
+        text-decoration: none;
+        margin-top: 27px;
+        display: inline-block;
+        color: #f67c92;
+    }
+}
